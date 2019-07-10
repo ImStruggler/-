@@ -233,7 +233,7 @@ ev.dispatchEvent(eve);
 2. 在“浏览器默认”给原型开辟的堆内存中有一个属性constructor：存储的是当前类本身
 3. 每一个对象（实例）都有一个__proto__(原型链)属性，这个属性指向当前实例所属类的原型（不确定所属的类，都指向Object.prototype）
 
-![原型链图](https://github.com/ImStruggler/-/blob/master/%E5%8E%9F%E5%9E%8B%E9%93%BE%E5%9B%BE.jpg）
+![原型链图](https://github.com/ImStruggler/Web-knowledge/blob/master/Imgs/%E5%8E%9F%E5%9E%8B%E9%93%BE%E5%9B%BE.jpg）
 
 #### instanceof原理
 	通过实例的__proto__与类的prototype对比是否相等，判断该实例是否属于当前类，相等返回true，否则__proto__向上查找   
@@ -394,7 +394,7 @@ function myNew(fn){
 
 ## 运行类机制 
 #### 任务队列和Event Loop事件循环 
-![事件循环](https://pic2.zhimg.com/80/v2-da078fa3eadf3db4bf455904ae06f84b_hd.jpg)
+![事件循环](https://github.com/ImStruggler/Web-knowledge/blob/master/Imgs/%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6.jpg)
 
 - 宏任务 
 	script（整体代码）、setInterval、setTimeout、setImmediate、I/O、UI rendering
@@ -695,7 +695,7 @@ callback => promise => async/await
 #### 6.Vue的跳转方法 
 - router-link 
 
-![router-link](https://github.com/ImStruggler/-/blob/master/Imgs/router-link1.png)
+![router-link](https://github.com/ImStruggler/Web-knowledge/blob/master/Imgs/router-link1.png)
 
 - this.$router.push() 
 
