@@ -581,41 +581,8 @@ function myNew(fn){
 			script中：(new Image()).src='http://baidu.com/tfah?r=fdg'; 
 
 
-## 面试模拟
-#### 渲染机制->JS运行机制->页面性能->错误监控
-
-#### 业务能力 
-- 做过什么业务
-- 负责的业务有什么业绩
-- 使用了什么技术方案
-- 突破了什么技术难题
-- 遇到了什么问题
-- 最大的收获是什么
-
-#### 面试技巧 
-- 乐观积极
-- 主动沟通
-- 逻辑顺畅
-- 上进有责任心
-- 有主张、做事果断
-
-#### 职业规划
-1. 目标是什么  
-	在业务上成为专家，在技术上成为行业大牛  
-2. 近阶段的目标  
-	不断的学习积累各方面的经验，以学习为主
-3. 长期目标  
-	做几件很有价值的事情，如开源作品、技术框架等
-4. 方式方法  
-	先完成业务上的主要问题，做到极致，然后逐步向目标靠拢
-
-
-
-
 
 ## 常见问题
-
-### JS 
 
 #### 1.JS获取和设置盒模型对应的宽和高的四种方法 
 	
@@ -728,7 +695,7 @@ callback => promise => async/await
 #### 6.Vue的跳转方法 
 - router-link 
 
-![router-link](F:/InterviewQuestions/router-link1.png)
+![router-link](https://github.com/ImStruggler/-/blob/master/Imgs/router-link1.png)
 
 - this.$router.push() 
 
