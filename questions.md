@@ -233,7 +233,7 @@ ev.dispatchEvent(eve);
 2. 在“浏览器默认”给原型开辟的堆内存中有一个属性constructor：存储的是当前类本身
 3. 每一个对象（实例）都有一个__proto__(原型链)属性，这个属性指向当前实例所属类的原型（不确定所属的类，都指向Object.prototype）
 
-![原型链图](https://images2015.cnblogs.com/blog/1030655/201610/1030655-20161031041705971-1605480841.jpg)
+![原型链图](https://github.com/ImStruggler/-/blob/master/%E5%8E%9F%E5%9E%8B%E9%93%BE%E5%9B%BE.jpg）
 
 #### instanceof原理
 	通过实例的__proto__与类的prototype对比是否相等，判断该实例是否属于当前类，相等返回true，否则__proto__向上查找   
