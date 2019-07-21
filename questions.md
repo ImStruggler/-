@@ -911,7 +911,7 @@ function dealDatas(data){
 - 在构造函数模式中，类中（函数体中）出现的this.xxx=xxx中的this是当前类的一个实例
 - call、apply、bind：this是第一个参数 
 - 箭头函数没有自己的this，看其外层是否有函数，如有，外层函数的this就是内部箭头函数的this，如没有，则this就是window
-![this指向](F:/InterviewQuestions/this.jpg) 
+![this指向](https://github.com/ImStruggler/Web-knowledge/blob/master/Imgs/this.jpg) 
 
 #### 13.String()和toString()的区别 
 - String():可以将null和undefined转换为'null'和'undefined'字符串
@@ -957,3 +957,8 @@ function deepClone(obj){
 ```
 
 ```
+#### 19.flex
+![flex](https://github.com/ImStruggler/Web-knowledge/blob/master/Imgs/flex.jpg)
+
+#### 20.浏览器缓存机制 
+![浏览器缓存](https://github.com/ImStruggler/Web-knowledge/blob/master/Imgs/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6.jpg)
